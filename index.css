@@ -60,4 +60,36 @@ box-sizing: border-box;
 
 /*#endregion*/
 
+:root {
+  --backgroundColor: #121213;
+}
+
+.guess-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 62px);
+  grid-template-rows: repeat(6, 62px);
+  gap: .25em;
+}
+
+.keyboard {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(20, 21.5px);
+  grid-auto-rows: 58px;
+  gap: .25em;
+}
+
+.key {
+  line-height: 58px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 2;
+}
+
+.key.large {
+  grid-column: span 3;
+}
 
