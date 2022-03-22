@@ -1,4 +1,4 @@
-[
+const target = [
   "cigar",
   "rebut",
   "sissy",
@@ -2315,3 +2315,5 @@
   "rural",
   "shave"
 ]
+
+export default target;
